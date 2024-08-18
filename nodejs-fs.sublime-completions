@@ -1,0 +1,47 @@
+{
+	"scope": "source.js",
+	"completions": [
+		{
+			"trigger": "fs.readFile",
+			"kind": "function",
+			"annotation": "function",
+			"contents": "fs.readFile(${1:path}, ${2:options}, ${3:callback})",
+			"details": "<code>fs.readFile(path: <i>string</i>, options?: <i>object</i>, callback: <i>function(error, data) {}</i>): <i>void</i></code>"
+		},
+		{
+			"trigger": "fs.writeFile",
+			"kind": "function",
+			"annotation": "function",
+			"contents": "fs.writeFile(${1:path}, ${2:data}, ${3:options}, ${4:callback})",
+			"details": "<code>fs.writeFile(path: <i>string</i>, data: <i>string</i>, options?: <i>object</i>, callback: <i>function(error, data) {}</i>): <i>void</i></code>"
+		},
+		{
+			"trigger": "fs.readFileSync",
+			"kind": "function",
+			"annotation": "function",
+			"contents": "fs.readFileSync(${1:path}, ${2:options})",
+			"details": "<code>fs.readFileSync(path: <i>string</i>, options?: <i>object</i>): <i>string</i></code>"
+		},
+		{
+			"trigger": "fs.writeFileSync",
+			"kind": "function",
+			"annotation": "function",
+			"contents": "fs.writeFileSync(${1:path}, ${2:data}, ${3:options})",
+			"details": "<code>fs.writeFileSync(path: <i>string</i>, data: <i>string</i>, options?: <i>object</i>): <i>void</i></code>"
+		},
+		{
+			"trigger": "fs.createReadStream",
+			"kind": "function",
+			"annotation": "function",
+			"contents": "fs.createReadStream(${1:options})",
+			"details": "<code>fs.createReadStream(options?: <i>object</i>): <i>fs.ReadStream</i></code>"
+		},
+		{
+			"trigger": "fs.createWriteStream",
+			"kind": "function",
+			"annotation": "function",
+			"contents": "fs.createWriteStream(${1:options})",
+			"details": "<code>fs.createWriteStream(options?: <i>object</i>): <i>fs.WriteStream</i></code>"
+		}
+	]
+}

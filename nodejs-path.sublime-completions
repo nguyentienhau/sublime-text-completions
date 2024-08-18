@@ -1,0 +1,12 @@
+{
+	"scope": "source.js",
+	"completions": [
+		{
+			"trigger": "",
+			"kind": "function",
+			"annotation": "function",
+			"contents": "",
+			"details": "<code><i></i></code>"
+		}
+	]
+}

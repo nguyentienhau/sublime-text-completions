@@ -1,1 +1,1 @@
-# Sublime Text Configuration
+# Sublime Text Completions

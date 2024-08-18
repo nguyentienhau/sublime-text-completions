@@ -1,0 +1,12 @@
+{
+	"scope": "text.html",
+	"completions": [
+		{
+			"trigger": "html:init",
+			"kind": "snippet",
+			"annotation": "snippet",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=7\" />\n\t<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"./favicon.ico\" />\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./custom.css\" />\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"./index.css\" />\n\t<title>${1:Document}</title>\n</head>\n<body>\n\t<div id=\"root\">${2}</div>\n\t<script type=\"text/javascript\" src=\"./custom.js\"></script>\n\t<script type=\"text/javascript\" src=\"./index.js\"></script>\n</body>\n</html>",
+			"details": "Initialize html document"
+		}
+	]
+}
